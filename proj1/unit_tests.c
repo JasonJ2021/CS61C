@@ -133,7 +133,7 @@ bool test_create_default_state() {
   if (state == NULL) {
     printf("%s\n", "create_default_state is not implemented, skipping...");
     return false;
-  }
+  } 
 
   if (!assert_equals_int("board width", 14, state->x_size)) {
     return false;

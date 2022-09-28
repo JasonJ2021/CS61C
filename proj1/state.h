@@ -3,7 +3,8 @@
 
 #include <stdbool.h>
 #include <stdio.h>
-
+#define DEFAULT_X 14
+#define DEFAULT_Y 10  
 typedef struct snake_t {
   unsigned int tail_x;
   unsigned int tail_y;
