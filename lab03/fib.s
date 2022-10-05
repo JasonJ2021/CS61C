@@ -1,6 +1,6 @@
 .data
-n: .word 9
-
+n: .word 20
+# check saved
 .text
 main:
     add t0, x0, x0 # curr_fib = 0
