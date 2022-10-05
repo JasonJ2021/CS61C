@@ -36,7 +36,7 @@ main:
 
     # Load the address of the "decrement" function into a1 (should be very similar to before)
     ### YOUR CODE HERE ###
-    la a1, decrement
+    la s1, decrement
 
     # Issue the call to map
     jal ra, map
