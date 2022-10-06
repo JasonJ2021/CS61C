@@ -9,10 +9,10 @@
 #   a0 (int) the absolute value of the input
 # =================================================================
 abs:
-	# Prologue
+  blt zero, a0, done
 
-	# PASTE HERE
+  # Negate a0
+  sub a0, x0, a0
 
-	# Epilogue
-
-	ret
+done:
+  ret
