@@ -30,7 +30,6 @@ matmul:
 	blt a2 , t0 , end
 	blt a4 , t0 , end
 	blt a5 , t0 , end
-	bne a1 , a5 , end
 	bne a2 , a4 , end
 
 	# Prologue
